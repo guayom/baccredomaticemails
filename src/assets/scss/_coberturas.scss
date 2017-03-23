@@ -1,0 +1,73 @@
+.coberturas-column {
+
+}
+
+.coberturas-column-1 {
+  p {
+    color: rgb(0, 195, 228);
+    }
+  img {
+      width: 80%;
+    }
+
+  }
+
+.coberturas-column-2 {
+  p {
+    color: rgb(45, 161, 206);
+    font-size: 100%;
+  }
+  img {
+    width: 80%;
+  }
+}
+
+.coberturas-column-3 {
+  p {
+    color: rgb(52, 122, 182);
+    font-size: 100%;
+  }
+  img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 596px) {
+    .coberturas-column-1 {
+      img {
+          width: 40% !important;
+        }
+      p {
+        float: left !important;
+      }
+      }
+    .coberturas-column-2 {
+      img {
+          width: 40% !important;
+        }
+      }
+    .coberturas-column-3 {
+      img {
+          width: 40% !important;
+        }
+        }
+  }
+
+@media only screen and (max-width: 620px){
+  .coberturas-column-1 {
+    img {
+        width: 60% !important;
+        float: left !important;
+      }
+    }
+    .coberturas-column-2 {
+      img {
+          width: 60% !important;
+        }
+      }
+    .coberturas-column-3 {
+      img {
+          width: 60% !important;
+        }
+      }
+}

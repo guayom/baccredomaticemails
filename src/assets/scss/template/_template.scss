@@ -114,10 +114,13 @@ h2{
 
   p.text-center{
     text-align: center;
-
   }
 }
 
+.text-legal{
+  text-align: center;
+  font-size: 0.8em;
+}
 .promo {
   background-image: url("https://content.baccredomatic.com/es-cr/mailing/com/is16/cr-correo-omas-hero-promo.jpg");
 }
@@ -214,17 +217,14 @@ h2{
   }
 }
 
-.text-red{
-  color: $salmon;
-}
-.text-brown{
-  color: $brown;
-}
 p{
   color: $secondary-color;
   hyphens: none;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
+
+
+
 .contactos{
   p{
     color: $medium-gray;
@@ -258,54 +258,6 @@ hr{
 }
 .aprovecha{
   text-align:right;
-}
-
-.tarjetas-izq{
-  img, th{
-    text-align: right;
-  }
-  img{
-    display: inline;
-  }
-  h2{
-    text-align: right;
-    color: $dark-gray;
-    font-family: Helvetica, Arial;
-    font-size: 0.9em;
-  }
-  h3{
-    font-family: Helvetica, Arial;
-    font-size: 0.9em;
-    font-weight: bold;
-    color: $dark-gray;
-    text-align: right;
-  }
-  p{
-    text-align: right;
-  }
-
-}
-
-.tarjetas-der{
-  h2{
-  color: $brown;
-  font-family: Helvetica, Arial;
-  font-size: 1.2em;
-  }
-  h3{
-  color: $brown;
-  font-family: Helvetica, Arial;
-  font-size: 0.9em;
-  font-weight: bold;
-  }
-  p{
-  color: $brown;
-  }
-  img{
-    width: 110%;
-    height: auto;
-  }
-
 }
 
 
@@ -368,12 +320,13 @@ hr{
 
 }
 
+
 @media screen and (max-width: 596px) {
   .version-web-link{
     text-align: left !important;
   }
   table.button.large table a{
-    font-size: 17px!important;
+    font-size: 14px!important;
   }
   .text-red, .center-mobile{
     text-align: center !important;
@@ -408,12 +361,12 @@ hr{
       hyphens: none !important;
     }
     p{
-      font-size: 0.8em !important;
+      font-size: 1em !important;
     }
   }
 
   table.button.large.button-mobile table a{
-    font-size: 0.9em !important;
+    font-size: 1.2em !important;
     text-align: center !important;
   }
   .hero-seguro-viajero-marzo {
