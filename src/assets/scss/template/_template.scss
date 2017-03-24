@@ -33,7 +33,7 @@ li{
 
 // Social Media
 table.button.facebook table td {
-  background: #3B5998 !important;
+  background: #3B5998;
   border-color: #3B5998;
 }
 
@@ -115,11 +115,14 @@ h2{
   p.text-center{
     text-align: center;
   }
+  p.text-justify{
+    text-align: justify;;
+  }
 }
 
 .text-legal{
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.6em;
 }
 .promo {
   background-image: url("https://content.baccredomatic.com/es-cr/mailing/com/is16/cr-correo-omas-hero-promo.jpg");
@@ -326,7 +329,7 @@ hr{
     text-align: left !important;
   }
   table.button.large table a{
-    font-size: 14px!important;
+    font-size: 16px!important;
   }
   .text-red, .center-mobile{
     text-align: center !important;
@@ -366,7 +369,7 @@ hr{
   }
 
   table.button.large.button-mobile table a{
-    font-size: 1.2em !important;
+    font-size: 1.4em !important;
     text-align: center !important;
   }
   .hero-seguro-viajero-marzo {
@@ -376,7 +379,7 @@ hr{
     }
 
     h3 {
-      font-size: 1.2em !important;
+      font-size: 1.5em !important;
     }
   }
 }
