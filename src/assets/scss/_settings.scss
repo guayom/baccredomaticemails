@@ -23,7 +23,7 @@ $warning-color: #ffae00;
 $alert-color: #ec5840;
 $light-gray: #f3f3f3;
 $medium-gray: #9F9F9F;
-$dark-gray: #656465;
+$dark-gray: rgb(102, 85, 79);
 $am-brown:#8B572A;
 $black: #494949;
 $white: #fefefe;
@@ -103,13 +103,13 @@ $button-padding: (
   tiny: 4px 8px 4px 8px,
   small: 5px 10px 5px 10px,
   default: 12px 16px 12px 16px,
-  large: 10px 20px 10px 20px,
+  large: 10px 30px 10px 30px,
 );
 $button-font-size: (
   tiny: 8px,
   small: 12px,
-  default: 16px,
-  large: 18px,
+  default: 18px,
+  large: 20px,
 );
 $button-color: $white;
 $button-color-alt: $medium-gray;

@@ -221,7 +221,7 @@ h2{
 }
 
 p{
-  color: $secondary-color;
+  color: $dark-gray;
   hyphens: none;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
@@ -282,7 +282,7 @@ hr{
   }
 
 .hero-seguro-viajero-marzo {
-  background: url(https://content.baccredomatic.com/es-cr/mailing/com/is16/03DAsegurosviajetranquilo0617-desktop.png);
+  background: url(https://content.baccredomatic.com/es-cr/mailing/com/2x16/03DAsegurosviajetranquilo0317-desktop.png);
   background-position: center top;
   background-repeat: no-repeat;
   color: #fff;
@@ -305,7 +305,7 @@ hr{
   }
 
   &.b-version{
-    background: url(https://content.baccredomatic.com/es-cr/mailing/com/is16/03DAsegurosviajetranquilo0617-desktopb.png);
+    background: url(../assets/img/03DAsegurosviajetranquilo0617-desktop.png);
     background-repeat: no-repeat;
     background-position: top center;
     h3{
@@ -329,7 +329,8 @@ hr{
     text-align: left !important;
   }
   table.button.large table a{
-    font-size: 16px!important;
+    font-size: 1.4em !important;
+    text-align: center !important;
   }
   .text-red, .center-mobile{
     text-align: center !important;
@@ -369,7 +370,7 @@ hr{
   }
 
   table.button.large.button-mobile table a{
-    font-size: 1.4em !important;
+    font-size: 1.8em !important;
     text-align: center !important;
   }
   .hero-seguro-viajero-marzo {
