@@ -83,24 +83,6 @@ h2{
     padding-bottom: 0;
   }
 }
-.beneficio{
-  p{
-    font-size: 15px;
-    text-align: left;
-    hyphens: none;
-    margin-bottom: 0;
-    height: 5.5em;
-  }
-}
-
-.beneficio-link{
-  font-size: 14px;
-}
-
-.beneficios-logo{
-  margin-bottom: 15px;
-  height: 53px;
-}
 
 .footer{
   .row{
@@ -124,67 +106,7 @@ h2{
   text-align: center;
   font-size: 0.6em;
 }
-.promo {
-  background-image: url("https://content.baccredomatic.com/es-cr/mailing/com/is16/cr-correo-omas-hero-promo.jpg");
-}
 
-.texto-promo {
-  h1 {
-    font-size: 16px;
-    text-align: left;
-    color: $brown;
-    font-weight: bold;
-  }
-  h2 {
-    font-size: 11px;
-    font-weight: bold;
-  }
-  ul {
-    font-size: 10px;
-  }
-  p {
-    font-size: 8px;
-  }
-}
-
-.adicional{
-  h2{
-    color: $salmon;
-  }
-  ul{
-    margin: 0;
-  }
-}
-.adicional-list{
-  th{
-    vertical-align: middle;
-  }
-}
-.servicio{
-  border: solid 4px #fff;
-  background: $light-gray;
-  padding-top: 10px;
-  text-align: center;
-  p{
-    height: 5em;
-    font-size: 13px;
-    text-align: left;
-  }
-  th{
-    text-align: center;
-    img{
-      display: inline-block;
-      margin-bottom: 10px;
-      max-width: 100%;
-    }
-  }
-}
-
-h2{
-  color: $brown;
-  margin-bottom: 0;
-  font-weight: bold;
-}
 .subject{
   font-size: 11px;
 }
@@ -226,27 +148,6 @@ p{
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
-
-
-.contactos{
-  p{
-    color: $medium-gray;
-  }
-  a{
-    color: $medium-gray;
-    font-size: 12px;
-    &:hover{
-      color: darken($medium-gray, 10%);
-      text-decoration: underline;
-    }
-  }
-}
-
-.tarjeta-auto {
-  text-align: right;
-
-}
-
 .logo-header{
   th{
     padding-top: 10px;
@@ -282,12 +183,11 @@ hr{
   }
 
 .hero-seguro-viajero-marzo {
-  background: url(https://content.baccredomatic.com/es-cr/mailing/com/2x16/06dasegurosviajetranquilo0617-desktop.png);
+  background: url(https://content.baccredomatic.com/es-cr/mailing/com/2x16/06dasegurosviajetranquilo042017-desktop.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   color: #fff;
-  margin-bottom: 40px;
-
+  margin-bottom: 30px;
   h1 {
     color: #fff;
     font-size: 3em;
@@ -320,7 +220,108 @@ hr{
       text-shadow: 3px 3px 2px rgba(1, 1, 1, .4);
     }
   }
+}
 
+.hero-tarjetablue {
+  background: url(../assets/img/hero_correo_amex_abril_20_2017.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-bottom: 30px;
+  h1 {
+    color: #fff;
+    font-size: 3em;
+    font-style: italic;
+    margin: 0;
+    text-shadow: 3px 3px 2px rgba(1, 1, 1, .4);
+  }
+
+  h3 {
+    color: #fff;
+    font-size: 1.8em;
+    font-style: italic;
+    margin: 0;
+    text-shadow: 3px 3px 2px rgba(1, 1, 1, .4);
+  }
+
+  &.b-version{
+    background: url(../assets/img/06dasegurosviajetranquilo0617-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    h3{
+      font-size: 1.4em;
+    }
+    ul{
+      margin: 5px 0;
+      padding-left: 20px;
+    }
+    li{
+      color: #fff;
+      text-shadow: 3px 3px 2px rgba(1, 1, 1, .4);
+    }
+  }
+}
+
+
+.coberturas-column-1 {
+  width: 70%;
+  p {
+    hyphens: auto;
+    color: black;
+    font-size: 100%;
+    text-align: center;
+    }
+  img {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+    }
+
+  }
+
+.coberturas-column-2 {
+    width: 70%;
+  p {
+    hyphens: auto;
+    color: black;
+    font-size: 100%;
+    text-align: center;
+  }
+  img {
+    width: 80%;
+  }
+}
+
+.coberturas-column-3 {
+  width: 70%;
+  p {
+    hyphens: auto;
+    color: $dark-gray;
+    font-size: 100%;
+    text-align: center;
+  }
+  img {
+    width: 80%;
+  }
+}
+
+.titulo-blue {
+  h1 {
+    color: #2C8CBF;
+    font-size: 1.2em;
+  }
+  h2 {
+    color: #2C8CBF;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.industrias-blue {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -339,35 +340,6 @@ hr{
     text-align: left !important;
   }
 
-  .hero_image{
-    background-image: url(https://content.baccredomatic.com/es-cr/mailing/com/is16/cr-correo-automercado-10puntosmas-mobile.png) !important;
-    margin-bottom: 20px !important;
-    h1{
-      font-size: 1.5em !important;
-    }
-    h2{
-      font-size: 1.2em !important;
-    }
-  }
-  h1.text-brown{
-    font-size: 1.2em !important;
-  }
-  .tarjetas-der h2{
-    font-size: 1em !important;
-  }
-  .background-row-boton{
-    background-image: url(https://content.baccredomatic.com/es-cr/mailing/com/is16/cr-correo-automercado-background-row-mobile.png)
-     !important;
-    background-position: left top;
-    h2{
-      font-size: 1.05em !important;
-      padding-right: 15px !important;
-      hyphens: none !important;
-    }
-    p{
-      font-size: 1em !important;
-    }
-  }
 
   table.button.large.button-mobile table a{
     font-size: 1.8em !important;
@@ -383,10 +355,69 @@ hr{
       font-size: 1.5em !important;
     }
   }
+  .coberturas-column-1 {
+    img {
+        width: 40% !important;
+        margin: 0 auto !important;
+      }
+
+    }
+  .coberturas-column-2 {
+    img {
+        width: 40% !important;
+        margin: 0 auto !important;
+      }
+    }
+  .coberturas-column-3 {
+    img {
+        width: 40% !important;
+        margin: 0 auto !important;
+      }
+      }
+  .industrias-blue {
+    padding-bottom: 0 !important;
+    ol {
+      margin: 0;
+      padding-top: 0;
+    }
+  }
 }
+
+
 @media only screen and (max-width: 620px){
   table.body .columns.hero_image_am, table.body .columns.hero_text, table.body .tarjetas .columns, table.body .hero-seguro-viajero-marzo .columns{
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+
+  }
+}
+
+@media only screen and (max-width: 620px){
+  .coberturas-column-1 {
+    img {
+        width: 60% !important;
+        margin: 0 auto !important;
+
+      }
+    }
+    .coberturas-column-2 {
+      img {
+          width: 60% !important;
+          margin: 0 auto !important;
+        }
+      }
+    .coberturas-column-3 {
+      img {
+          width: 60% !important;
+          margin: 0 auto !important;
+        }
+      }
+}
+
+table.button.boton-gris table {
+  td {
+    //background
+    background: grey !important;
+  }
+  a {
+    //color del texto
   }
 }
