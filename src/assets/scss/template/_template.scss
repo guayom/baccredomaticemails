@@ -10,6 +10,11 @@ html,
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
+p {
+  color: #444756;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  }
+
 li{
   hyphens: none;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
@@ -54,7 +59,7 @@ table.button.google table td {
   font-size: 11px;
 }
 
-// ------ Heros ------ //
+// Heros
 
 .hero{
   background-repeat: no-repeat;
@@ -67,8 +72,6 @@ table.button.google table td {
 
 h1{
   font-size: 24px;
-  text-align: center;
-  margin-bottom: 10px;
   font-weight: 700;
   hyphens: none;
 }
@@ -124,7 +127,7 @@ h2{
   }
 }
 
-// ------ Hero Seguro Viajero Abril ------ //
+// ------ Starts Hero Seguro Viajero 20 Abril ------ //
 
 .hero-seguro-viajero-marzo {
   background: url(https://content.baccredomatic.com/es-cr/mailing/com/2x16/06dasegurosviajetranquilo042017-desktop.jpg);
@@ -147,7 +150,6 @@ h2{
     margin: 0;
     text-shadow: 3px 3px 2px rgba(1, 1, 1, .4);
   }
-
   &.b-version{
     background: url(../assets/img/06dasegurosviajetranquilo0617-desktop.png);
     background-repeat: no-repeat;
@@ -166,7 +168,10 @@ h2{
   }
 }
 
-// ------ Inicia Hero Correo BLUE Amex ------ //
+
+
+
+// ------ Starts Hero Correo BLUE Amex ------ //
 
 .hero-tarjetablue {
   background: url(../assets/img/hero_correo_amex_abril_20_2017.png);
@@ -174,79 +179,52 @@ h2{
   background-repeat: no-repeat;
   color: #fff;
   margin-bottom: 30px;
-  h1 {
-    color: #fff;
-    font-size: 3em;
-    font-style: italic;
-    margin: 0;
-    text-shadow: 3px 3px 2px rgba(1, 1, 1, .4);
-  }
-
-  h3 {
-    color: #fff;
-    font-size: 1.8em;
-    font-style: italic;
-    margin: 0;
-    text-shadow: 3px 3px 2px rgba(1, 1, 1, .4);
-  }
-
-  &.b-version{
-    background: url(../assets/img/06dasegurosviajetranquilo0617-desktop.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-    h3{
-      font-size: 1.4em;
-    }
-    ul{
-      margin: 5px 0;
-      padding-left: 20px;
-    }
-    li{
+    h1 {
       color: #fff;
+      font-size: 3em;
+      font-style: italic;
+      margin: 0;
       text-shadow: 3px 3px 2px rgba(1, 1, 1, .4);
-    }
-  }
-}
+      }
 
-  // ------ Ends Hero Correo BLUE Amex ------ //
-
-
-
-// ------ Footer ------ //
-
-.footer{
-  .row{
-    background: $light-gray;
+    h3 {
+      color: #fff;
+      font-size: 1.8em;
+      font-style: italic;
+      margin: 0;
+      text-shadow: 3px 3px 2px rgba(1, 1, 1, .4);
+      }
   }
 
-  p{
-    text-align: justify;
-    font-size: 10px;
+
+// ------ Starts Hero Correo Pre Aprobadas  ------ //
+
+.hero-preaprobadas {
+  background: url(https://content.baccredomatic.com/es-cr/mailing/com/2x16/hero-preaprobadas.gif);
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-bottom: 30px;
+    h1 {
+      color: #fff;
+      font-size: 0.8em;
+      margin: 0;
+      text-shadow: 3px 3px 2px rgba(1, 1, 1, .4);
+      }
+
+    h3 {
+      color: #fff;
+      font-size: 0.8em;
+      hyphens: none;
+      margin: 0;
+      text-shadow: 2px 2px 2px rgba(1, 1, 1, .4);
+      }
   }
 
-  p.text-center{
-    text-align: center;
-  }
-  p.text-justify{
-    text-align: justify;;
-  }
-}
-
-// ------ Texto Legal
-
-.text-legal{
-  text-align: center;
-  font-size: 0.6em;
-}
 
 
-// ------ Content Custom Styles
 
-p{
-  color: $dark-gray;
-  hyphens: none;
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-}
+// ------ Content Styles
 
 .logo-header{
   th{
@@ -280,7 +258,6 @@ hr{
     color: white;
     }
   }
-
 
 .coberturas-column-1 {
   width: 70%;
@@ -324,7 +301,7 @@ hr{
   }
 
 
-// ------ Correo Tarjeta BLUE Amex ------ //
+// ------ Starts Content Correo Tarjeta BLUE Amex ------ //
 
 .titulo-blue {
   h1 {
@@ -338,12 +315,95 @@ hr{
     text-align: center;
   }
 }
-
 .industrias-blue {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
+
+
+
+// ------ Footer Logo BAC | CREDOMATIC ------ //
+
+.footer{
+  .row{
+    background: $light-gray;
+  }
+  p{
+    text-align: justify;
+    font-size: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  p.text-center{
+    text-align: center;
+  }
+  p.text-justify{
+    text-align: justify;;
+  }
+}
+
+// ------ Starts Content Correo Pre Aprobadas ------ //
+
+.titulo-preaprobadas {
+  img {
+    float: left;
+    text-align: left;
+    width: 30%;
+    margin-right: 1.1em;
+    padding-bottom: 1em;
+    }
+
+  h1 {
+    color: #444756;
+    font-size: 1em;
+    margin-left: 0.3em;
+    }
+  }
+}
+
+.titulo-categorias {
+  h2 {
+    color: #2C8CBF;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+  }
+  }
+.tarjetas-pre {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.beneficios-right {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.beneficios-left {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+// ------ Texto Legal
+
+.contacto {
+  text-align: center;
+  font-size: 1em;
+  hyphens: none;
+  span {
+    color: #2C8CBF;
+  }
+}
+
+.text-legal-2 {
+  text-align: center;
+  font-size: 0.6em;
+  hyphens: none;
+}
+
 
 
 // ------ Media Queries ------ //
@@ -365,27 +425,24 @@ hr{
     text-align: left !important;
   }
 
-
   table.button.large.button-mobile table a{
     font-size: 1.8em !important;
     text-align: center !important;
   }
   .hero-seguro-viajero-marzo {
+      h1 {
+        font-size: 2em !important;
+      }
 
-    h1 {
-      font-size: 2em !important;
-    }
-
-    h3 {
-      font-size: 1.5em !important;
-    }
+      h3 {
+        font-size: 1.5em !important;
+      }
   }
   .coberturas-column-1 {
     img {
         width: 40% !important;
         margin: 0 auto !important;
       }
-
     }
   .coberturas-column-2 {
     img {
@@ -404,9 +461,25 @@ hr{
     ol {
       margin: 0;
       padding-top: 0;
+      margin-bottom: 0.4em;
     }
   }
-}
+  .beneficios-left {
+    padding-bottom: 1.5em !important;
+    padding-right: 1em !important;
+   }
+  .beneficios-right {
+    padding-bottom: 1.5em !important;
+    padding-left: 1em !important;
+      }
+  }
+
+  // ------ Correo Pre Aprobadas - Max-width 620px
+  .titulo-preaprobadas {
+      text-align: center !important;
+      margin: 0 !important;
+      padding-top: 0 !important;
+    }
 
 // ------ Max-width 620px
 
