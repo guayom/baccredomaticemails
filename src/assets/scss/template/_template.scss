@@ -4,6 +4,7 @@
 // Body Styles
 body,
 html,
+
 .body {
   background: #f3f3f3;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
@@ -47,6 +48,14 @@ table.button.google table td {
   border-color: #DB4A39;
 }
 
+// Subject Text
+
+.subject{
+  font-size: 11px;
+}
+
+// ------ Heros ------ //
+
 .hero{
   background-repeat: no-repeat;
 }
@@ -84,33 +93,6 @@ h2{
   }
 }
 
-.footer{
-  .row{
-    background: $light-gray;
-  }
-
-  p{
-    text-align: justify;
-    font-size: 10px;
-  }
-
-  p.text-center{
-    text-align: center;
-  }
-  p.text-justify{
-    text-align: justify;;
-  }
-}
-
-.text-legal{
-  text-align: center;
-  font-size: 0.6em;
-}
-
-.subject{
-  font-size: 11px;
-}
-
 .hero_image{
   background-repeat: no-repeat;
   background-position: top center;
@@ -142,45 +124,7 @@ h2{
   }
 }
 
-p{
-  color: $dark-gray;
-  hyphens: none;
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-}
-
-.logo-header{
-  th{
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
-hr{
-  border-top: 1px solid $medium-gray;
-}
-.version-web-link{
-  text-align: right;
-}
-.aprovecha{
-  text-align:right;
-}
-
-
-.explicacion-title{
-  h2{
-    font-family: Helvetica;
-    font-size: 1.3em;
-    color: white;
-    text-shadow: 2px 2px 4px black;
-}
-}
-
-.explicacion-p{
-  p{
-    font-family: Helvetica;
-    font-size: 0.8em;
-    color: white;
-  }
-  }
+// ------ Hero Seguro Viajero Abril ------ //
 
 .hero-seguro-viajero-marzo {
   background: url(https://content.baccredomatic.com/es-cr/mailing/com/2x16/06dasegurosviajetranquilo042017-desktop.jpg);
@@ -222,6 +166,8 @@ hr{
   }
 }
 
+// ------ Inicia Hero Correo BLUE Amex ------ //
+
 .hero-tarjetablue {
   background: url(../assets/img/hero_correo_amex_abril_20_2017.png);
   background-position: center top;
@@ -262,6 +208,79 @@ hr{
   }
 }
 
+  // ------ Ends Hero Correo BLUE Amex ------ //
+
+
+
+// ------ Footer ------ //
+
+.footer{
+  .row{
+    background: $light-gray;
+  }
+
+  p{
+    text-align: justify;
+    font-size: 10px;
+  }
+
+  p.text-center{
+    text-align: center;
+  }
+  p.text-justify{
+    text-align: justify;;
+  }
+}
+
+// ------ Texto Legal
+
+.text-legal{
+  text-align: center;
+  font-size: 0.6em;
+}
+
+
+// ------ Content Custom Styles
+
+p{
+  color: $dark-gray;
+  hyphens: none;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+.logo-header{
+  th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+hr{
+  border-top: 1px solid $medium-gray;
+}
+.version-web-link{
+  text-align: right;
+}
+.aprovecha{
+  text-align:right;
+}
+
+.explicacion-title{
+  h2{
+    font-family: Helvetica;
+    font-size: 1.3em;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    }
+}
+
+.explicacion-p{
+  p{
+    font-family: Helvetica;
+    font-size: 0.8em;
+    color: white;
+    }
+  }
+
 
 .coberturas-column-1 {
   width: 70%;
@@ -276,7 +295,6 @@ hr{
       display: block;
       margin: 0 auto;
     }
-
   }
 
 .coberturas-column-2 {
@@ -290,7 +308,7 @@ hr{
   img {
     width: 80%;
   }
-}
+  }
 
 .coberturas-column-3 {
   width: 70%;
@@ -303,7 +321,10 @@ hr{
   img {
     width: 80%;
   }
-}
+  }
+
+
+// ------ Correo Tarjeta BLUE Amex ------ //
 
 .titulo-blue {
   h1 {
@@ -324,6 +345,10 @@ hr{
   margin-right: auto;
 }
 
+
+// ------ Media Queries ------ //
+
+// ------ Max-width 596px
 
 @media screen and (max-width: 596px) {
   .version-web-link{
@@ -383,14 +408,10 @@ hr{
   }
 }
 
+// ------ Max-width 620px
 
 @media only screen and (max-width: 620px){
-  table.body .columns.hero_image_am, table.body .columns.hero_text, table.body .tarjetas .columns, table.body .hero-seguro-viajero-marzo .columns{
 
-  }
-}
-
-@media only screen and (max-width: 620px){
   .coberturas-column-1 {
     img {
         width: 60% !important;
