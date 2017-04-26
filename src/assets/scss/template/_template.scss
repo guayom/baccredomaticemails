@@ -360,7 +360,7 @@ hr{
     font-size: 1em;
     margin-left: 0.3em;
     }
-  }   
+  }
 
 .titulo-categorias {
   h2 {
@@ -384,7 +384,9 @@ hr{
   margin-left: auto;
   margin-right: auto;
 }
-
+.button {
+  text-shadow: 2px 2px 2px rgba(1, 1, 1, .4);
+}
 
 // ------ Texto Legal
 
