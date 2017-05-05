@@ -224,6 +224,7 @@ h2{
 
 
 
+
 // ------ Content Styles
 
 .logo-header{
@@ -388,6 +389,80 @@ hr{
   text-shadow: 2px 2px 2px rgba(1, 1, 1, .4);
 }
 
+// ------ Starts Hero Correo Adicionales  ------ //
+
+.hero-adicionales {
+  background: url(https://content.baccredomatic.com/es-cr/mailing/com/2x16/cr-correo-adicionales-hero.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-bottom: 30px;
+    h1 {
+      color: #fff;
+      font-size: 0.8em;
+      margin: 0;
+      text-shadow: 3px 3px 2px rgba(1, 1, 1, .4);
+      }
+
+    h3 {
+      color: #fff;
+      font-size: 0.8em;
+      hyphens: none;
+      margin: 0;
+      text-shadow: 2px 2px 2px rgba(1, 1, 1, .4);
+      }
+  }
+
+.titulo-adicionales{
+h2 {
+    color: #52AF5E;
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    }
+    }
+
+span {
+font-size: 1.2em;
+}
+
+li {
+  line-height: 1.8em;
+  img{
+    display: inline-block;
+    margin-right: 10px;
+    height: 80%;
+  }
+}
+
+// ------ Starts Content Correo Adicionales ------ //
+
+.titulo-adicionales-tarjeta {
+  img {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    margin-right: 1.1em;
+    padding-bottom: 1em;
+
+    }
+
+  h1 {
+    color: #444756;
+    font-size: 1em;
+    margin-left: 0.3em;
+    }
+}
+
+.beneficios-adicionales {
+  li{
+  margin-left: 0 !important;
+  line-height: 0.4em;
+  }
+}
+
+
 // ------ Texto Legal
 
 .contacto {
@@ -475,12 +550,32 @@ hr{
       }
   }
 
-  // ------ Correo Pre Aprobadas - Max-width 620px
-  .titulo-preaprobadas {
+  // ------ Correo Pre Aprobadas - Max-width 596px
+.titulo-preaprobadas {
       text-align: center !important;
       margin: 0 !important;
       padding-top: 0 !important;
+      img{
+        width: 50% !important;
+      }
     }
+
+    // ------ Correo adicionales - Max-width 596px
+.titulo-adicionales-tarjeta {
+        text-align: center !important;
+        margin: 0 !important;
+        padding-top: 0 !important;
+        img{
+          width: 50% !important;
+        }
+      }
+.beneficios-left {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+li {
+  margin-right: 1.1em;
+}
 
 // ------ Max-width 620px
 
@@ -505,6 +600,12 @@ hr{
           margin: 0 auto !important;
         }
       }
+
+// ------ Correo adicionales - Max-width 620px
+  .beneficios-adicionales {
+              padding-left: 0 !important;
+              padding-right: 0 !important;
+            }
 }
 
 table.button.boton-gris table {
