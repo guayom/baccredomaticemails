@@ -80,9 +80,9 @@ function pages() {
     .pipe(replace('Â&nbsp;', ''))
     .pipe(replace('Â', ''))
     .pipe(replace('â', ''))
-    //.pipe(replace('../assets/img/', 'https://content.baccredomatic.com/es-cr/mailing/com/2x16/'))
-    //.pipe(replace('/assets/img/', 'https://content.baccredomatic.com/es-cr/mailing/com/2x16/'))
-    //.pipe($.if(PRODUCTION, replace('/assets/img/', 'https://content.baccredomatic.com/es-cr/mailing/com/is16/')))
+    .pipe(replace('../assets/img/', 'https://content.baccredomatic.com/es-cr/mailing/com/2x16/'))
+    .pipe(replace('/assets/img/', 'https://content.baccredomatic.com/es-cr/mailing/com/2x16/'))
+    .pipe($.if(PRODUCTION, replace('/assets/img/', 'https://content.baccredomatic.com/es-cr/mailing/com/is16/')))
     .pipe(gulp.dest('dist'));
 }
 
