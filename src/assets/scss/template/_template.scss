@@ -436,6 +436,8 @@ li {
   }
 }
 
+
+
 // ------ Starts Content Correo Adicionales ------ //
 
 .titulo-adicionales-tarjeta {
@@ -445,7 +447,6 @@ li {
     text-align: left;
     margin-right: 1.1em;
     padding-bottom: 1em;
-
     }
 
   h1 {
@@ -462,6 +463,82 @@ li {
   }
 }
 
+// ------ Starts Hero Correo Adicionales (Familia)  ------ //
+.hero-adicionales-seguridad {
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-bottom: 30px;
+    h1 {
+      color: #fff;
+      font-size: 0.8em;
+      margin: 0;
+      text-shadow: 3px 3px 2px rgba(1, 1, 1, .4);
+      padding-top: 200px;
+      }
+
+    h3 {
+      color: #fff;
+      font-size: 0.8em;
+      hyphens: none;
+      margin: 0;
+      text-shadow: 2px 2px 2px rgba(1, 1, 1, .4);
+      }
+      tbody tr th.columns {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        padding-bottom: 0 !important;
+      }
+  }
+
+// ------ Starts Content Correo Adicionales (Familia) ------ //
+
+.beneficios-seguridad{
+  img {
+    float: right;
+    padding-left: 20px;
+      }
+  p {
+    padding-left: 0 !important;
+  }
+}
+
+.titulo-bene-seguridad {
+    h2 {
+    color: #DC5357;
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: bold;
+    text-align: left;
+    }
+    }
+
+.titulo-bene-adicional {
+    h2 {
+    color: #52AF5E;
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: bold;
+    text-align: left;
+    }
+    }
+
+.titulo-adicionales-seguridad {
+      img {
+        display: inline-block;
+        float: left;
+        text-align: left;
+        margin-right: 1.1em;
+        padding-bottom: 1em;
+        height: 70%;
+        width: 70%;
+        }
+
+      h1 {
+        color: #444756;
+        font-size: 1em;
+        margin-left: 0.3em;
+        }
+    }
 
 // ------ Texto Legal
 
@@ -481,101 +558,146 @@ li {
 }
 
 
-
 // ------ Media Queries ------ //
 
-// ------ Max-width 596px
+// ------ Max-width 320-px
 
-@media screen and (max-width: 596px) {
-  .version-web-link{
-    text-align: left !important;
-  }
-  table.button.large table a{
-    font-size: 1.4em !important;
-    text-align: center !important;
-  }
-  .text-red, .center-mobile{
-    text-align: center !important;
-  }
-  .aprovecha{
-    text-align: left !important;
-  }
 
-  table.button.large.button-mobile table a{
-    font-size: 1.8em !important;
-    text-align: center !important;
-  }
-  .hero-seguro-viajero-marzo {
-      h1 {
-        font-size: 2em !important;
+@media screen and (max-width: 320px) {
+
+    .beneficios-seguridad  {
+      padding-right: 0 !important;
+      font-size: 80% !important;
+          }
+      p {
+        float: left !important;;
+          }
+    .titulo-adicionales-seguridad {
+      img {
+          margin-right: 1.1em;
+          padding-bottom: 1em;
+          height: 30% !important;
+          width: 30% !important;
+                  }
+                }
       }
 
-      h3 {
-        font-size: 1.5em !important;
-      }
-  }
-  .coberturas-column-1 {
-    img {
-        width: 40% !important;
-        margin: 0 auto !important;
-      }
-    }
-  .coberturas-column-2 {
-    img {
-        width: 40% !important;
-        margin: 0 auto !important;
-      }
-    }
-  .coberturas-column-3 {
-    img {
-        width: 40% !important;
-        margin: 0 auto !important;
-      }
-      }
-  .industrias-blue {
-    padding-bottom: 0 !important;
-    ol {
-      margin: 0;
-      padding-top: 0;
-      margin-bottom: 0.4em;
-    }
-  }
-  .beneficios-left {
-    padding-bottom: 1.5em !important;
-    padding-right: 1em !important;
-   }
-  .beneficios-right {
-    padding-bottom: 1.5em !important;
-    padding-left: 1em !important;
-      }
-  }
 
-  // ------ Correo Pre Aprobadas - Max-width 596px
-.titulo-preaprobadas {
-      text-align: center !important;
-      margin: 0 !important;
-      padding-top: 0 !important;
-      img{
-        width: 50% !important;
-      }
-    }
+    // ------ Max-width 596px
 
-    // ------ Correo adicionales - Max-width 596px
-.titulo-adicionales-tarjeta {
+    @media screen and (max-width: 596px) {
+      .version-web-link{
+        text-align: left !important;
+      }
+      table.button.large table a{
+        font-size: 1.4em !important;
         text-align: center !important;
-        margin: 0 !important;
-        padding-top: 0 !important;
-        img{
-          width: 50% !important;
+      }
+      .text-red, .center-mobile{
+        text-align: center !important;
+      }
+      .aprovecha{
+        text-align: left !important;
+      }
+
+      table.button.large.button-mobile table a{
+        font-size: 1.8em !important;
+        text-align: center !important;
+      }
+      .hero-seguro-viajero-marzo {
+          h1 {
+            font-size: 2em !important;
+          }
+
+          h3 {
+            font-size: 1.5em !important;
+          }
+      }
+      .coberturas-column-1 {
+        img {
+            width: 40% !important;
+            margin: 0 auto !important;
+          }
+        }
+      .coberturas-column-2 {
+        img {
+            width: 40% !important;
+            margin: 0 auto !important;
+          }
+        }
+      .coberturas-column-3 {
+        img {
+            width: 40% !important;
+            margin: 0 auto !important;
+          }
+          }
+      .industrias-blue {
+        padding-bottom: 0 !important;
+        ol {
+          margin: 0;
+          padding-top: 0;
+          margin-bottom: 0.4em;
         }
       }
-.beneficios-left {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-      }
-li {
-  margin-right: 1.1em;
+      .beneficios-left {
+        padding-bottom: 1.5em !important;
+        padding-right: 1em !important;
+       }
+      .beneficios-right {
+        padding-bottom: 1.5em !important;
+        padding-left: 1em !important;
+          }
+
+
+      // ------ Correo Pre Aprobadas - Max-width 596px
+    .titulo-preaprobadas {
+          text-align: center !important;
+          margin: 0 !important;
+          padding-top: 0 !important;
+          img{
+            width: 50% !important;
+          }
+        }
+
+        // ------ Correo adicionales - Max-width 596px
+    .titulo-adicionales-tarjeta {
+      img {
+        display: inline-block;
+        float: left;
+        text-align: left;
+        margin-right: 1.1em;
+        padding-bottom: 1em;
+        }
+
+      h1 {
+        color: #444756;
+        font-size: 1em;
+        margin-left: 0.3em;
+        }
+    }
+    .beneficios-left {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+          }
+    li {
+      margin-right: 1.1em;
+    }
+    // ------ Correo adicionales familia - Max-width 596px
+    .beneficios-seguridad img {
+        width: 160px;
+    }
+    .titulo-adicionales-seguridad {
+          img {
+            margin-right: 1.1em;
+            padding-bottom: 1em;
+            height: 50% !important;
+            width: 50% !important;
+            }
+
+        }
 }
+
+
 
 // ------ Max-width 620px
 
@@ -606,7 +728,17 @@ li {
               padding-left: 0 !important;
               padding-right: 0 !important;
             }
-}
+
+// ------ Correo adicionales - Max-width 620px
+
+.titulo-adicionales-seguridad {
+      img {
+        margin-right: 1.1em;
+        padding-bottom: 1em;
+        height: 30% !important;
+        width: 30% !important;
+        }
+      }
 
 table.button.boton-gris table {
   td {
@@ -616,4 +748,14 @@ table.button.boton-gris table {
   a {
     //color del texto
   }
+}
+
+.hero-adicionales-seguridad {
+  tbody tr th.columns {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
 }
