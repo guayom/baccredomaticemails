@@ -540,6 +540,37 @@ li {
         }
     }
 
+// ------ Correo Segurp PRF
+
+
+
+
+// ------ Correo Encuesta de Servicio
+
+.titulo-encuesta h2 {
+    color: #DC5357;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+  }
+.contenido-encuesta-servicio {
+    img {
+      display: inline-block;
+      float: left;
+      text-align: left;
+      margin-right: 1.1em;
+      padding-bottom: 3em;
+      }
+
+    h1 {
+      color: #444756;
+      font-size: 1em;
+      margin-left: 0.3em;
+      }
+  }
+
+
+
 // ------ Texto Legal
 
 .contacto {
